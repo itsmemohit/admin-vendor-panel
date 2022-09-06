@@ -1,6 +1,5 @@
 {
   "name": "direct",
-  "homepage": "https://mern.online/direct",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
