@@ -25,6 +25,10 @@ import VendorCategories from "./vendorPanel/components/pages/categories/VendorCa
 import VendorTask from "./vendorPanel/components/pages/tasks/TaskAllotment";
 import VendorTaskPerformed from "./vendorPanel/components/pages/tasks/TaskPerformed";
 import VendorAcceptRequest from "./vendorPanel/components/pages/acceptrequest/AcceptRequest";
+import ManageProducts from "./vendorPanel/components/pages/manageProducts/ManageProducts";
+import ManagePartnerMerchant from "./vendorPanel/components/pages/partnermerchant/ManagePartnerMerchant";
+import ManageCategoryDetails from "./vendorPanel/components/pages/managecategorydetails/CategoryDetails"
+import PaidAdsFeature from "./vendorPanel/components/pages/paidAds/AdsFeature"
 import VendorOrders from "./vendorPanel/components/pages/orders/VendorOrders";
 import VendorSupport from "./vendorPanel/components/pages/support/VendorSupport";
 import Commission from "./vendorPanel/components/pages/commission/Commission";
@@ -39,6 +43,7 @@ import VendorFavorites from "./components/pages/favorites/VendorFavorites";
 import CouponsDiscount from "./vendorPanel/components/pages/couponsDiscount/CouponsDiscount";
 import Forgot from "./components/forms/Forgot";
 import Vendors from "./components/pages/vendors/Vendors";
+import AdsFeature from "./vendorPanel/components/pages/paidAds/AdsFeature";
 
 function App() {
   return (
@@ -72,6 +77,10 @@ function App() {
         <Route path="/taskallotment" element={<VendorTask />} />
         <Route path="/taskperformed" element={<VendorTaskPerformed />} />
         <Route path="/request" element={<VendorAcceptRequest />} />
+        <Route path="/manageproducts" element={<ManageProducts />} />
+        <Route path="/managepartnermerchant" element={<ManagePartnerMerchant />} />
+        <Route path="/managecategorydetails" element={<ManageCategoryDetails />} />
+        <Route path="/paidAdsFeature" element={<AdsFeature />} />
         <Route path="/vendorCategories" element={<VendorCategories />} />
         <Route path="/vendorOrders" element={<VendorOrders />} />
         <Route path="/vendorSupport" element={<VendorSupport />} />

@@ -55,9 +55,29 @@ const Sidebar = ({ hamb, setHamb }) => {
       name: "Appointments",
     },
     {
+      icon: <AiFillPlusCircle className="text-xl mr-3" />,
+      link: "/manageproducts",
+      name: "Manage Products",
+    },
+    {
+      icon: <AiFillPlusCircle className="text-xl mr-3" />,
+      link: "/managepartnermerchant",
+      name: "Manage Partner Merchant",
+    },
+    {
+      icon: <AiFillPlusCircle className="text-xl mr-3" />,
+      link: "/managecategorydetails",
+      name: "Manage Category Details",
+    },
+    {
       icon: <MdOutlineCategory className="text-xl mr-3" />,
       link: "/vendorCategories",
       name: "Categories",
+    },
+    {
+      icon: <MdOutlineCategory className="text-xl mr-3" />,
+      link: "/paidAdsFeature",
+      name: "Paid Ads Feature",
     },
     {
       icon: <GiKnightBanner className="text-xl mr-3" />,
